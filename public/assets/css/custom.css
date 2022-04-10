@@ -1,0 +1,77 @@
+ul.hirarki li {
+    font-size: 15px;
+    padding: 20px 15px 20px 15px;
+    border-left: 5px solid #8D83F3;
+    border-right: none;
+    border-radius: 0;
+}
+
+ul.hirarki li.child-item {
+    margin-left: 30px;
+}
+
+ul.hirarki li.li-parent {
+    padding: 20px 0px 0px 15px;
+}
+
+ul.hirarki li.li-parent div.float-right {
+    margin-right: 15px;
+    /* margin-bottom: 20px; */
+}
+
+ul.hirarki li.li-parent ul {
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+ul.hirarki li.li-parent ul li {}
+
+ul.hirarki li.li-parent ul li div.float-right {
+    margin-right: 0;
+}
+
+.ui-state-highlight {
+    border: 1px dashed #ccc;
+    list-style-type: none;
+    border-left: none;
+    background: #dfdfdf;
+    padding: 20px 15px 20px 15px;
+}
+
+ul.hirarki li:nth-child(odd) {
+    background: #fafafa;
+}
+
+ul.hirarki li:nth-child(even) {
+    background: #fff;
+}
+
+ul.hirarki li ul li:nth-child(odd) {
+    background: #fff;
+}
+
+ul.hirarki li ul li:nth-child(even) {
+    background: #fafafa;
+}
+
+a.btn-edit:hover {
+    background: #0090c5;
+}
+
+.dark-layout a.list-title {
+    color: #fff;
+}
+
+.dark-layout ul.hirarki li {
+    border-left-color: #7367f0 !important;
+}
+
+.scroll-touch {
+    -webkit-overflow-scrolling: touch !;
+    /* Lets it scroll lazy */
+}
+
+.scroll-auto {
+    -webkit-overflow-scrolling: auto;
+    /* Stops scrolling immediately */
+}
